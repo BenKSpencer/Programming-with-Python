@@ -17,20 +17,20 @@ print(True)
 print(False)
 
 # Arithmetic operators let you perform calculations with numbers.
-print(1 + 1)   # + adds numbers.
-print(2 * 3)   # * multiplies numbers.
-print(10 / 2)  # / divides numbers; in Python 3 this gives 5.0.
-print(10 - 2)  # - subtracts the number on the right from the number on the left.
-print(2 ** 3)  # ** raises the left number to the power of the right number.
-print(10 % 3)  # % gives the remainder after division: 1.
+print(1 + 1)   # + adds numbers. For example, 1 + 1 equals 2.
+print(2 * 3)   # * multiplies numbers. For example, 2 * 3 equals 6.
+print(10 / 2)  # / divides numbers; in Python 3 this gives 5.0. For example, 10 / 2 equals 5.0.
+print(10 - 2)  # - subtracts the number on the right from the number on the left. For example, 10 - 2 equals 8.
+print(2 ** 3)  # ** raises the left number to the power of the right number. For example, 2 ** 3 equals 8.
+print(10 % 3)  # % gives the remainder after division: 1. For example, 10 % 3 equals 1.
 
 # Comparison operators compare two values and produce a Boolean result.
-print(1 == 1)  # == checks whether the values are equal.
-print(1 != 2)  # != checks whether the values are not equal.
-print(1 < 2)   # < checks whether the left value is less than the right.
-print(2 > 1)   # > checks whether the left value is greater than the right.
-print(1 <= 1)  # <= checks whether the left value is less than or equal to the right.
-print(2 >= 1)  # >= checks whether the left value is greater than or equal to the right.
+print(1 == 1)  # == checks whether the values are equal. For example, 1 == 1 is True, while 1 == 2 is False.
+print(1 != 2)  # != checks whether the values are not equal. For example, 1 != 2 is True.
+print(1 < 2)   # < checks whether the left value is less than the right. For example, 1 < 2 is True.
+print(2 > 1)   # > checks whether the left value is greater than the right. For example, 2 > 1 is True.
+print(1 <= 1)  # <= checks whether the left value is less than or equal to the right. For example, 1 <= 1 is True.
+print(2 >= 1)  # >= checks whether the left value is greater than or equal to the right. For example, 2 >= 1 is True.
 
 # The logical operators and, or, and not combine or reverse Boolean values.
 print(True and False)  # and is True only when both values are True.
