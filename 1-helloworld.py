@@ -45,18 +45,18 @@ print("hello" * 3 + " " + "world!")  # String operators can be combined.
 
 # len() is a built-in function. It returns the number of items in a value;
 # for a string, that means the number of characters.
-print(len("hello world!"))  # The result is 12.
+print(len("hello world!"))  # The result is 12 and includes spaces and punctuation.
 
 # String methods are functions associated with strings. The string before
 # the dot is the value the method works on.
-print("hello world!".upper())  # .upper() returns an uppercase version.
-print("hello world!".lower())  # .lower() returns a lowercase version.
-print("hello world!".title())  # .title() capitalizes the words.
+print("hello world!".upper())  # .upper() returns an uppercase version. The result is "HELLO WORLD!"
+print("hello world!".lower())  # .lower() returns a lowercase version. The result is "hello world!"
+print("hello world!".title())  # .title() capitalizes the words. The result is "Hello World!"
 print("hello world!".replace("world", "Python"))  # .replace() substitutes text.
 
 # String formatting puts values into a string. .format() is a string method;
 # an f-string is another formatting feature, not a function or method.
-print("Hello, {}!".format("World"))  # {} is a placeholder for a value.
-print("Hello, {name}!".format(name="World"))  # A placeholder can be named.
+print("Hello, {}!".format("World"))  # {} is a placeholder for a value. The result is "Hello, World!".
+print("Hello, {name}!".format(name="World"))  # A placeholder can be named. The result is "Hello, World!".
 print(f"Hello, {'World'}!")  # Expressions inside {} are evaluated.
 print(f"Hello, {'World'}! The length is {len('World')}.")
