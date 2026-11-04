@@ -1,0 +1,210 @@
+Practice,PCN,Locality,ICB,List_Size,IMD_Decile
+Blue Tit Practice,Chestnut PCN,Heathland,Bird ICB,7474,5
+Bullfinch Surgery,Olive PCN,Heathland,Bird ICB,13806,4
+Chaffinch Health Centre,Olive PCN,Heathland,Bird ICB,13740,7
+Coal Tit Practice,Olive PCN,Heathland,Bird ICB,9890,8
+Cormorant Practice,Cotoneaster PCN,Heathland,Bird ICB,2192,5
+Cuckoo Health Centre,Lime PCN,Heathland,Bird ICB,14866,5
+Curlew Medical Centre,Cotoneaster PCN,Heathland,Bird ICB,2950,7
+Firecrest Practice,Spruce PCN,Heathland,Bird ICB,8797,8
+Great Tit Medical Centre,Plum PCN,Heathland,Bird ICB,8549,8
+Heron Surgery,Rowan PCN,Heathland,Bird ICB,7401,7
+Kestrel Surgery,Chestnut PCN,Heathland,Bird ICB,8996,9
+Kingfisher Practice,Chestnut PCN,Heathland,Bird ICB,4731,6
+Kittiwake Medical Centre,Cotoneaster PCN,Heathland,Bird ICB,9034,6
+Linnet Medical Centre,Pine PCN,Heathland,Bird ICB,4983,6
+Little Owl Health Centre,Chestnut PCN,Heathland,Bird ICB,5527,4
+Magpie Health Centre,Chestnut PCN,Heathland,Bird ICB,4770,8
+Mistle Thrush Surgery,Cotoneaster PCN,Heathland,Bird ICB,3685,4
+Nightingale Practice,Spindle PCN,Heathland,Bird ICB,28593,1
+Oystercatcher Health Centre,Plum PCN,Heathland,Bird ICB,26830,7
+Peregrine Health Centre,Plum PCN,Heathland,Bird ICB,4423,5
+Pipit Surgery,Pine PCN,Heathland,Bird ICB,5489,8
+Plover Medical Centre,Spruce PCN,Heathland,Bird ICB,11944,4
+Puffin Surgery,Cotoneaster PCN,Heathland,Bird ICB,6827,5
+Redpoll Health Centre,Spindle PCN,Heathland,Bird ICB,10667,5
+Redshank Health Centre,Cotoneaster PCN,Heathland,Bird ICB,12004,6
+Redstart Health Centre,Spindle PCN,Heathland,Bird ICB,9264,5
+Robin Surgery,Spruce PCN,Heathland,Bird ICB,8420,2
+Rook Health Centre,Rowan PCN,Heathland,Bird ICB,15325,5
+Sanderling Surgery,Spindle PCN,Heathland,Bird ICB,14099,6
+Siskin Surgery,Chestnut PCN,Heathland,Bird ICB,11253,6
+Snipe Medical Centre,Olive PCN,Heathland,Bird ICB,6848,5
+Song Thrush Health Centre,Spindle PCN,Heathland,Bird ICB,19268,1
+Starling Health Centre,Laurel PCN,Heathland,Bird ICB,23564,5
+Stonechat Health Centre,Rowan PCN,Heathland,Bird ICB,9386,7
+Swift Practice,Chestnut PCN,Heathland,Bird ICB,4814,3
+Teal Practice,Olive PCN,Heathland,Bird ICB,14625,2
+Wagtail Medical Centre,Lime PCN,Heathland,Bird ICB,26775,4
+Wheatear Surgery,Pine PCN,Heathland,Bird ICB,13834,8
+Whinchat Health Centre,Chestnut PCN,Heathland,Bird ICB,8537,5
+Woodpecker Medical Centre,Rowan PCN,Heathland,Bird ICB,7956,10
+Yellowhammer Surgery,Spruce PCN,Heathland,Bird ICB,5337,6
+Avocet Surgery,Pear PCN,Woodland,Bird ICB,7438,5
+Barn Owl Health Centre,Pear PCN,Woodland,Bird ICB,8336,4
+Buzzard Surgery,Elm PCN,Woodland,Bird ICB,11377,9
+Chiffchaff Practice,Pear PCN,Woodland,Bird ICB,4939,3
+Dunlin Medical Centre,Dogwood PCN,Woodland,Bird ICB,8388,9
+Dunnock Surgery,Walnut PCN,Woodland,Bird ICB,6202,9
+Egret Practice,Walnut PCN,Woodland,Bird ICB,25981,2
+Fulmar Practice,Yew PCN,Woodland,Bird ICB,19925,4
+Gannet Surgery,Hazel PCN,Woodland,Bird ICB,13524,9
+Goldfinch Surgery,Elm PCN,Woodland,Bird ICB,11830,5
+Greenfinch Health Centre,Hornbeam PCN,Woodland,Bird ICB,18119,3
+House Martin Medical Centre,Hornbeam PCN,Woodland,Bird ICB,10860,7
+Jackdaw Practice,Hazel PCN,Woodland,Bird ICB,12490,3
+Jay Medical Centre,Elm PCN,Woodland,Bird ICB,20413,9
+Lapwing Practice,Hazel PCN,Woodland,Bird ICB,14274,3
+Long-Tailed Tit Surgery,Elm PCN,Woodland,Bird ICB,13389,10
+Mallard Medical Centre,Pear PCN,Woodland,Bird ICB,6124,5
+Nightjar Practice,Hemlock PCN,Woodland,Bird ICB,61525,7
+Nuthatch Practice,Walnut PCN,Woodland,Bird ICB,12210,6
+Razorbill Medical Centre,Hornbeam PCN,Woodland,Bird ICB,9557,9
+Red Kite Medical Centre,Hornbeam PCN,Woodland,Bird ICB,13807,9
+Skylark Health Centre,Dogwood PCN,Woodland,Bird ICB,11109,4
+Sparrowhawk Medical Centre,Pear PCN,Woodland,Bird ICB,45100,7
+Swallow Practice,Walnut PCN,Woodland,Bird ICB,9931,5
+Treecreeper Medical Centre,Hazel PCN,Woodland,Bird ICB,17242,5
+Woodcock Medical Centre,Dogwood PCN,Woodland,Bird ICB,9569,5
+Wren Practice,Dogwood PCN,Woodland,Bird ICB,28058,6
+Angelfish Surgery,Medlar PCN,Coastal,Fish ICB,9395,6
+Barbel Health Centre,Ash PCN,Coastal,Fish ICB,5265,6
+Barracuda Surgery,Damson PCN,Coastal,Fish ICB,12687,8
+Bass Practice,Elder PCN,Coastal,Fish ICB,16467,3
+Bleak Medical Centre,Ash PCN,Coastal,Fish ICB,14789,6
+Bream Medical Centre,Linden PCN,Coastal,Fish ICB,25021,2
+Char Health Centre,Hawthorn PCN,Coastal,Fish ICB,9600,7
+Chub Surgery,Eucalyptus PCN,Coastal,Fish ICB,8909,6
+Clownfish Surgery,Medlar PCN,Coastal,Fish ICB,16171,9
+Conger Medical Centre,Ash PCN,Coastal,Fish ICB,15473,8
+Dab Practice,Hickory PCN,Coastal,Fish ICB,6278,7
+Dragonet Practice,Box PCN,Coastal,Fish ICB,18793,9
+Eel Practice,Fir PCN,Coastal,Fish ICB,7914,10
+Flounder Surgery,Fir PCN,Coastal,Fish ICB,13278,8
+Goby Practice,Oak PCN,Coastal,Fish ICB,21217,5
+Grayling Health Centre,Linden PCN,Coastal,Fish ICB,7193,6
+Gurnard Surgery,Medlar PCN,Coastal,Fish ICB,9372,4
+Haddock Medical Centre,Hickory PCN,Coastal,Fish ICB,6968,7
+Hake Surgery,Elder PCN,Coastal,Fish ICB,6979,7
+Halibut Practice,Hawthorn PCN,Coastal,Fish ICB,3830,7
+Herring Practice,Medlar PCN,Coastal,Fish ICB,9292,6
+Lamprey Health Centre,Box PCN,Coastal,Fish ICB,15507,5
+Marlin Health Centre,Hickory PCN,Coastal,Fish ICB,6123,4
+Mullet Medical Centre,Damson PCN,Coastal,Fish ICB,2302,7
+Perch Practice,Elder PCN,Coastal,Fish ICB,11430,7
+Pike Practice,Fir PCN,Coastal,Fish ICB,15093,5
+Pilchard Surgery,Box PCN,Coastal,Fish ICB,13278,5
+Pipefish Surgery,Damson PCN,Coastal,Fish ICB,3251,7
+Pufferfish Health Centre,Oak PCN,Coastal,Fish ICB,36791,6
+Rudd Medical Centre,Acacia PCN,Coastal,Fish ICB,14854,5
+Salmon Health Centre,Damson PCN,Coastal,Fish ICB,4863,8
+Sandeel Medical Centre,Damson PCN,Coastal,Fish ICB,2340,4
+Sardine Practice,Damson PCN,Coastal,Fish ICB,3840,4
+Seahorse Practice,Hawthorn PCN,Coastal,Fish ICB,4729,8
+Skate Health Centre,Apple PCN,Coastal,Fish ICB,23108,7
+Smelt Medical Centre,Eucalyptus PCN,Coastal,Fish ICB,15631,2
+Sole Surgery,Fir PCN,Coastal,Fish ICB,21111,3
+Sprat Medical Centre,Medlar PCN,Coastal,Fish ICB,3562,4
+Sturgeon Surgery,Hawthorn PCN,Coastal,Fish ICB,18571,7
+Tarpon Health Centre,Hickory PCN,Coastal,Fish ICB,12314,8
+Trout Surgery,Medlar PCN,Coastal,Fish ICB,2994,6
+Tuna Health Centre,Linden PCN,Coastal,Fish ICB,7625,7
+Vendace Surgery,Apple PCN,Coastal,Fish ICB,15583,5
+Wahoo Medical Centre,Fir PCN,Coastal,Fish ICB,7440,9
+Wrasse Medical Centre,Acacia PCN,Coastal,Fish ICB,24866,7
+Anchovy Medical Centre,Holly PCN,Lakeside,Fish ICB,12812,6
+Blenny Health Centre,Magnolia PCN,Lakeside,Fish ICB,19516,3
+Butterfish Medical Centre,Quince PCN,Lakeside,Fish ICB,9749,6
+Carp Surgery,Almond PCN,Lakeside,Fish ICB,15410,7
+Catfish Medical Centre,Almond PCN,Lakeside,Fish ICB,11804,4
+Cod Practice,Maple PCN,Lakeside,Fish ICB,7594,3
+Grouper Medical Centre,Holly PCN,Lakeside,Fish ICB,9450,8
+Guppy Surgery,Maple PCN,Lakeside,Fish ICB,9519,10
+Lionfish Health Centre,Osier PCN,Lakeside,Fish ICB,27967,2
+Loach Health Centre,Buckthorn PCN,Lakeside,Fish ICB,12171,10
+Lumpsucker Practice,Maple PCN,Lakeside,Fish ICB,8630,9
+Megrim Medical Centre,Wayfaring PCN,Lakeside,Fish ICB,54231,4
+Pollock Health Centre,Buckthorn PCN,Lakeside,Fish ICB,4822,1
+Shad Practice,Quince PCN,Lakeside,Fish ICB,22286,4
+Stickleback Medical Centre,Mulberry PCN,Lakeside,Fish ICB,8303,3
+Turbot Practice,Mulberry PCN,Lakeside,Fish ICB,13936,10
+Whiting Health Centre,Mulberry PCN,Lakeside,Fish ICB,9294,4
+Zander Medical Centre,Buckthorn PCN,Lakeside,Fish ICB,7468,5
+Bonito Surgery,Beech PCN,Riverside,Fish ICB,12816,5
+Brill Health Centre,Birch PCN,Riverside,Fish ICB,9049,6
+Bullhead Health Centre,Sequoia PCN,Riverside,Fish ICB,27263,9
+Coley Health Centre,Redwood PCN,Riverside,Fish ICB,9966,9
+Dace Medical Centre,Redwood PCN,Riverside,Fish ICB,7978,10
+Garfish Practice,Redwood PCN,Riverside,Fish ICB,16300,9
+Gudgeon Practice,Birch PCN,Riverside,Fish ICB,5763,7
+John Dory Practice,Redwood PCN,Riverside,Fish ICB,7456,1
+Ling Medical Centre,Birch PCN,Riverside,Fish ICB,5978,5
+Mackerel Surgery,Larch PCN,Riverside,Fish ICB,20754,7
+Monkfish Surgery,Birch PCN,Riverside,Fish ICB,5285,8
+Parrotfish Surgery,Birch PCN,Riverside,Fish ICB,16054,7
+Plaice Health Centre,Birch PCN,Riverside,Fish ICB,9383,2
+Ray Surgery,Birch PCN,Riverside,Fish ICB,5572,9
+Roach Health Centre,Alder PCN,Riverside,Fish ICB,7787,6
+Snapper Medical Centre,Birch PCN,Riverside,Fish ICB,10911,7
+Swordfish Practice,Beech PCN,Riverside,Fish ICB,12200,10
+Tench Practice,Larch PCN,Riverside,Fish ICB,7027,7
+Tetra Surgery,Alder PCN,Riverside,Fish ICB,15987,8
+Triggerfish Practice,Alder PCN,Riverside,Fish ICB,7748,7
+Brimstone Medical Centre,Cedar PCN,Meadow,Insect ICB,5285,3
+Bumblebee Surgery,Guelder PCN,Meadow,Insect ICB,12642,4
+Burnet Moth Surgery,Cherry PCN,Meadow,Insect ICB,6625,8
+Bush Cricket Surgery,Plane PCN,Meadow,Insect ICB,3629,6
+Caddisfly Practice,Juniper PCN,Meadow,Insect ICB,15687,7
+Cicada Surgery,Plane PCN,Meadow,Insect ICB,13758,2
+Click Beetle Surgery,Juniper PCN,Meadow,Insect ICB,10297,8
+Cockchafer Practice,Sycamore PCN,Meadow,Insect ICB,5244,4
+Comma Health Centre,Sallow PCN,Meadow,Insect ICB,5492,5
+Cranefly Surgery,Service PCN,Meadow,Insect ICB,4218,6
+Cricket Medical Centre,Privet PCN,Meadow,Insect ICB,25573,8
+Damselfly Medical Centre,Poplar PCN,Meadow,Insect ICB,26963,2
+Dragonfly Practice,Juniper PCN,Meadow,Insect ICB,6168,5
+Dung Beetle Medical Centre,Sallow PCN,Meadow,Insect ICB,4005,7
+Earwig Health Centre,Cedar PCN,Meadow,Insect ICB,7129,4
+Emperor Moth Surgery,Blackthorn PCN,Meadow,Insect ICB,7718,7
+Firefly Practice,Sallow PCN,Meadow,Insect ICB,16937,4
+Fritillary Practice,Cherry PCN,Meadow,Insect ICB,5817,7
+Froghopper Practice,Cherry PCN,Meadow,Insect ICB,8826,4
+Glow-Worm Medical Centre,Poplar PCN,Meadow,Insect ICB,3267,6
+Grasshopper Medical Centre,Cherry PCN,Meadow,Insect ICB,7021,4
+Ground Beetle Medical Centre,Willow PCN,Meadow,Insect ICB,8998,4
+Hawkmoth Medical Centre,Cypress PCN,Meadow,Insect ICB,13273,3
+Holly Blue Practice,Poplar PCN,Meadow,Insect ICB,7935,6
+Honeybee Health Centre,Plane PCN,Meadow,Insect ICB,5281,5
+Hornet Medical Centre,Guelder PCN,Meadow,Insect ICB,11499,5
+Hoverfly Health Centre,Cedar PCN,Meadow,Insect ICB,3348,6
+Lacewing Health Centre,Cypress PCN,Meadow,Insect ICB,17665,7
+Ladybird Medical Centre,Sallow PCN,Meadow,Insect ICB,8256,6
+Leafcutter Bee Health Centre,Willow PCN,Meadow,Insect ICB,11911,5
+Longhorn Beetle Medical Centre,Service PCN,Meadow,Insect ICB,6944,5
+Mantis Practice,Cedar PCN,Meadow,Insect ICB,10444,5
+Marbled White Health Centre,Service PCN,Meadow,Insect ICB,5465,8
+Mason Bee Medical Centre,Plane PCN,Meadow,Insect ICB,10904,6
+Mayfly Practice,Sycamore PCN,Meadow,Insect ICB,7337,6
+Meadow Brown Surgery,Cypress PCN,Meadow,Insect ICB,10974,1
+Mole Cricket Medical Centre,Sycamore PCN,Meadow,Insect ICB,13033,4
+Orange Tip Surgery,Sycamore PCN,Meadow,Insect ICB,10792,6
+Painted Lady Health Centre,Willow PCN,Meadow,Insect ICB,11011,3
+Peacock Butterfly Practice,Plane PCN,Meadow,Insect ICB,7826,5
+Pond Skater Practice,Guelder PCN,Meadow,Insect ICB,9226,5
+Red Admiral Surgery,Guelder PCN,Meadow,Insect ICB,5599,1
+Ringlet Surgery,Service PCN,Meadow,Insect ICB,13311,4
+Scarab Health Centre,Cedar PCN,Meadow,Insect ICB,11881,7
+Scorpionfly Health Centre,Juniper PCN,Meadow,Insect ICB,18241,3
+Shieldbug Health Centre,Plane PCN,Meadow,Insect ICB,13089,2
+Skipper Medical Centre,Juniper PCN,Meadow,Insect ICB,16035,8
+Small Copper Medical Centre,Guelder PCN,Meadow,Insect ICB,12259,4
+Snakefly Health Centre,Sallow PCN,Meadow,Insect ICB,14257,5
+Soldier Beetle Surgery,Cherry PCN,Meadow,Insect ICB,5454,6
+Speckled Wood Practice,Plane PCN,Meadow,Insect ICB,17894,2
+Stag Beetle Surgery,Cypress PCN,Meadow,Insect ICB,18314,1
+Stonefly Practice,Plane PCN,Meadow,Insect ICB,7677,8
+Swallowtail Health Centre,Service PCN,Meadow,Insect ICB,7740,5
+Tiger Moth Surgery,Willow PCN,Meadow,Insect ICB,3525,4
+Wasp Surgery,Poplar PCN,Meadow,Insect ICB,10303,6
+Water Boatman Health Centre,Blackthorn PCN,Meadow,Insect ICB,21242,5
+Weevil Practice,Plane PCN,Meadow,Insect ICB,4982,5
