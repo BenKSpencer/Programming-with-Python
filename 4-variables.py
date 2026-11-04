@@ -55,3 +55,7 @@ print(float("73.09"))             # Prints 73.09 as a number
 # 1. Make variables for the England hypertension figure: 74.01
 # 2. Work out the difference between percentage and the England figure.
 # 3. Print a sentence like "This PCN is 0.7 points below England."
+
+england_percentage = 74.01
+difference = percentage - england_percentage
+print(f"{practice_name} is {difference:.1f}% points below England.") 

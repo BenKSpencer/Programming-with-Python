@@ -8,16 +8,16 @@ print("loop starting!")  # This is not indented, so it runs before the loops.
 # A for loop assigns each value in turn to its loop variable. The variable
 # name can be any valid name; here, number takes the values 0 through 9.
 for number in range(10):
-    print("loop number", number)
+    print("loop number:", number)
 
 # range() variations
 # range(stop) starts at 0 and counts up by 1, stopping before stop.
 for number in range(5):
-    print("range(5):", number)  # Prints 0, 1, 2, 3, 4.
+    print("loop number:", number)  # Prints 0, 1, 2, 3, 4.
 
 # range(start, stop) starts at start and counts up by 1, stopping before stop.
 for number in range(1, 11):
-    print("range(1, 11):", number)  # Prints 1 through 10.
+    print("loop number:", number)  # Prints 1 through 10.
 
 # range(start, stop, step) also lets you choose how much to count by.
 for number in range(2, 11, 2):
