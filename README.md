@@ -34,7 +34,7 @@ Each lesson is saved as its own numbered script with plain-English comments, so 
 
 | # | Script | What I'll learn | Status |
 |---|--------|-----------------|--------|
-| 4 | [4-variables.py](4-variables.py) | Variables, calculating a percentage, `round()`, converting text to numbers | To do |
+| 4 | [4-variables.py](4-variables.py) | Variables, calculating a percentage, `round()`, converting text to numbers | Done |
 | 5 | [5-if-statements.py](5-if-statements.py) | `if`, `elif` and `else`: comparing a PCN with England; `break` to fix Lesson 3's endless loop | To do |
 | 6 | [6-lists.py](6-lists.py) | Lists: storing many values, `sum()`, `min()`, `max()`, averages, sorting and filtering | To do |
 | 7 | [7-dictionaries.py](7-dictionaries.py) | Dictionaries: a row of data with labelled columns; a list of dictionaries as a table | To do |
