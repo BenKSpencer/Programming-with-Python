@@ -8,6 +8,10 @@ I started with **Chapter 5 – Programming with Python** of *The Official Raspbe
 
 From Lesson 4, I'm following a lesson plan devised with Claude AI (Anthropic). It builds the Python basics I need for working with data, using population health examples. I can still return to the book's later exercises (such as turtle graphics) for fun.
 
+## Where I'm heading
+
+The goal is to go beyond Python itself and learn the skills behind NHS data and population health work: how data is **stored** (SQL), **shared** between systems (APIs, FHIR and clinical codes, as used in Shared Care Records), **analysed** fairly (rates, confidence intervals, funnel plots and inequality gaps) and **shared** with others (notebooks, dashboards and automated reports). The plan runs from Lesson 1 to Lesson 46 and ends with a capstone project on medicines and health inequalities.
+
 Each lesson is saved as its own numbered script with plain-English comments, so I can look back and see how I've progressed.
 
 ## Why I'm learning
@@ -17,6 +21,9 @@ Each lesson is saved as its own numbered script with plain-English comments, so 
   - cleaning, joining and reshaping datasets
   - automating repetitive reporting tasks
   - analysing trends and differences between population groups
+  - querying databases with SQL and pulling open NHS data from APIs
+  - understanding how health systems exchange data (FHIR, SNOMED CT, dm+d)
+  - measuring inequalities with sound population health methods
   - creating clear charts and visualisations to share findings
   - making analysis reproducible, so it can be re-run and checked
 
@@ -54,7 +61,71 @@ Each lesson is saved as its own numbered script with plain-English comments, so 
 | 16 | My first chart | A bar chart with `matplotlib` |
 | 17 | Mini project | Hypertension control by PCN compared with England, with a chart |
 
+### Stage 4: SQL (planned)
+
+| # | Topic | What I'll learn |
+|---|-------|-----------------|
+| 18 | CSV to database | `sqlite3`, `df.to_sql()`, tables, rows and primary keys |
+| 19 | SELECT and WHERE | Choosing columns, filtering rows, `AND`/`OR`, `LIKE` |
+| 20 | Sorting and limits | `ORDER BY`, `LIMIT`, `DISTINCT` |
+| 21 | Aggregating | `COUNT`, `SUM`, `AVG`, `GROUP BY`, `HAVING` |
+| 22 | Joins | `INNER` and `LEFT JOIN`, and why rows go missing or duplicate |
+| 23 | Building up a query | `CASE WHEN`, subqueries and CTEs (`WITH`) |
+| 24 | SQL inside Python | `pd.read_sql()`, and when to use SQL or pandas |
+
+### Stage 5: JSON and open NHS APIs (planned)
+
+| # | Topic | What I'll learn |
+|---|-------|-----------------|
+| 25 | JSON | How JSON maps to dictionaries and lists, `json.load()`, nested data |
+| 26 | Calling an API | `requests.get()`, status codes and query parameters, using the ODS API to look up a GP practice |
+| 27 | OpenPrescribing | Prescribing spending and measures data into a DataFrame |
+| 28 | Fingertips | Public health indicators with `fingertips_py` (or its replacement, Find Public Health Data) |
+| 29 | Being a good API user | Pagination, rate limits, caching results and handling errors |
+
+### Stage 6: Health data standards and FHIR (planned)
+
+| # | Topic | What I'll learn |
+|---|-------|-----------------|
+| 30 | Clinical codes | SNOMED CT, dm+d (VTM, VMP, AMP) and BNF codes, and how they map |
+| 31 | Codes in analysis | Code lists, why searches miss patients, joining a code list to data |
+| 32 | FHIR basics | Patient, Observation, MedicationRequest and Condition resources, and Bundles |
+| 33 | A FHIR server | Searching a public FHIR test server with fictional patients |
+| 34 | NHS FHIR | UK Core profiles, the NHS number and the ODS FHIR API |
+| 35 | HL7 v2 and openEHR | Older message formats, integration engines and what openEHR adds |
+
+### Stage 7: Population health methods (planned)
+
+| # | Topic | What I'll learn |
+|---|-------|-----------------|
+| 36 | Rates and denominators | Rates per 1,000 and per 100,000, and small-number suppression |
+| 37 | Confidence intervals | Wilson score intervals, and when a difference from England is real |
+| 38 | Funnel plots | Control limits that show genuine outliers, not just small practices |
+| 39 | Age standardisation | Directly standardised rates with the European Standard Population 2013 |
+| 40 | Inequality gaps | IMD quintiles, the gap between most and least deprived, the slope index of inequality |
+| 41 | Treatment gaps | Recorded versus expected prevalence, and the cost of closing a gap (actual and rebated) |
+
+### Stage 8: Sharing results (planned)
+
+| # | Topic | What I'll learn |
+|---|-------|-----------------|
+| 42 | Jupyter notebooks | Code, charts and written findings in one file |
+| 43 | Charts that land | Titles that state the finding, and interactive charts with `plotly` |
+| 44 | Automating a monthly report | Combining a folder of files, de-duplicating and writing formatted Excel |
+| 45 | A simple dashboard | A web page with filters and charts using `streamlit` |
+| 46 | Python in my everyday tools | Python in Excel and Power BI, where allowed |
+
+### Capstone: a medicines inequalities report
+
+Are antihypertensive prescribing and blood pressure control fair across deprivation? This project uses real open, aggregate data (OpenPrescribing, CVDPREVENT and deprivation scores) and brings every stage together: SQL storage, API data, code lists, confidence intervals, a funnel plot, the deprivation gap and a published notebook and dashboard.
+
+### Git habits along the way
+
+Commit after every lesson, add a `.gitignore` and `requirements.txt`, keep any API keys out of the repository, and work on a branch for each new lesson.
+
 ## Practice data
+
+**No real patient data ever goes in this repository.** Lessons use fictional data, synthetic patients or open, aggregate NHS data only.
 
 The [data/](data/) folder holds small practice datasets for learning. They are **fictional**: they're based on the shape of open CVDPREVENT data, but every name is made up and every number has been changed, so they don't describe any real practice, PCN or area.
 
