@@ -59,8 +59,8 @@ print("hello world!".replace("world", "Python"))  # .replace() substitutes text.
 print("Hello, {}!".format("World"))  # {} is a placeholder for a value. The result is "Hello, World!".
 print("Hello, {name}!".format(name="World"))  # A placeholder can be named. The result is "Hello, World!".
 print(f"Hello, {'World'}!")  # Expressions inside {} are evaluated.
-print(f"Hello, {'World'}! The length is {len('World')}.")
-print(f"{134366:,}")
+print(f"Hello, {'World'}! The length is {len('World')}.") # You can use expressions inside f-strings. The result is "Hello, World! The length is 5.".
+print(f"{134366:,}") # Formats a number with commas as thousands separators. The result is "134,366".
 
 # Try it yourself (added by Claude AI, Anthropic):
 # 1. Print the name of a GP practice, "Salmon Surgery", as a string.
@@ -68,7 +68,7 @@ print("Salmon Surgery")
 
 # 2. 5010 out of 6855 patients have their blood pressure controlled.
 #    Print the percentage. Hint: divide, then multiply by 100.
-print(f"{5010/6855 * 100:.2f}% " + "of patients have their blood pressure controlled.")
+print(f"{5010/6855 * 100:.2f}% of patients have their blood pressure controlled.") # You don't need to use '+' to concatenate an f-string
 
 # 3. Use a comparison operator to print whether 73.09 is less than the
 #    England figure of 74.01. Do you get True or False?
@@ -84,7 +84,7 @@ print("salmon surgery".title().replace("Surgery", "Health Centre"))  # Mistake r
 
 # 6. Use an f-string to print "Salmon Surgery has 7650 patients." Then print
 #    how many characters are in "Salmon Surgery" using len().
-print(f"Salmon Surgery has 7650 patients.")
+print(f"Salmon Surgery has {7650} patients.")
 print(f"The length of 'Salmon Surgery' is {len('Salmon Surgery')} characters.")
 
 # 7. Use * to print a line of 20 dashes, like a divider in a report.
