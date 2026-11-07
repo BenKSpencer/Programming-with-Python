@@ -14,6 +14,16 @@ The goal is to go beyond Python itself and learn the skills behind NHS data and 
 
 Each lesson is saved as its own numbered script with plain-English comments, so I can look back and see how I've progressed.
 
+## How the repository is organised
+
+| Folder | What's in it |
+|--------|--------------|
+| [lessons/](lessons/) | The lessons, kept clean with their **Try it yourself** questions unanswered, so anyone can use them |
+| [answers/](answers/) | My worked copy of each lesson, including my answers to **Try it yourself** |
+| [data/](data/) | Fictional practice datasets used by the lessons |
+
+For each lesson I create a branch, copy the lesson into `answers/`, work through it there, then merge the branch into `main`.
+
 ## Why I'm learning
 
 - **To learn Python and have fun doing it.** I want to build things, experiment, break things and work out how to fix them.
@@ -33,20 +43,20 @@ Each lesson is saved as its own numbered script with plain-English comments, so 
 
 | # | Script | What I learned | Status |
 |---|--------|----------------|--------|
-| 1 | [1-helloworld.py](1-helloworld.py) | `print()`, strings, numbers, Booleans, operators, string methods and f-strings | Done |
-| 2 | [2-Indentation.py](2-Indentation.py) | `for` loops with `range()`, and how indentation defines a block of code | Done |
-| 3 | [3-Indentation-2.py](3-Indentation-2.py) | `while True` loops, which run forever (press `Ctrl+C` to stop) | Done |
+| 1 | [1-helloworld.py](lessons/1-helloworld.py) | `print()`, strings, numbers, Booleans, operators, string methods and f-strings | Done |
+| 2 | [2-Indentation.py](lessons/2-Indentation.py) | `for` loops with `range()`, and how indentation defines a block of code | Done |
+| 3 | [3-Indentation-2.py](lessons/3-Indentation-2.py) | `while True` loops, which run forever (press `Ctrl+C` to stop) | Done |
 
 ### Stage 2: The basics I need for data (devised by Claude AI, Anthropic)
 
 | # | Script | What I'll learn | Status |
 |---|--------|-----------------|--------|
-| 4 | [4-variables.py](4-variables.py) | Variables, calculating a percentage, `round()`, converting text to numbers | Done |
-| 5 | [5-if-statements.py](5-if-statements.py) | `if`, `elif` and `else`: comparing a PCN with England; `break` to fix Lesson 3's endless loop | To do |
-| 6 | [6-lists.py](6-lists.py) | Lists: storing many values, `sum()`, `min()`, `max()`, averages, sorting and filtering | To do |
-| 7 | [7-dictionaries.py](7-dictionaries.py) | Dictionaries: a row of data with labelled columns; a list of dictionaries as a table | To do |
-| 8 | [8-functions.py](8-functions.py) | Writing my own functions, such as a reusable `percentage()` | To do |
-| 9 | [9-reading-a-csv.py](9-reading-a-csv.py) | Reading a real CSV file of GP practices with the `csv` module | To do |
+| 4 | [4-variables.py](lessons/4-variables.py) | Variables, calculating a percentage, `round()`, converting text to numbers | Done ([my answers](answers/4-variables.py)) |
+| 5 | [5-if-statements.py](lessons/5-if-statements.py) | `if`, `elif` and `else`: comparing a PCN with England; `break` to fix Lesson 3's endless loop | To do |
+| 6 | [6-lists.py](lessons/6-lists.py) | Lists: storing many values, `sum()`, `min()`, `max()`, averages, sorting and filtering | To do |
+| 7 | [7-dictionaries.py](lessons/7-dictionaries.py) | Dictionaries: a row of data with labelled columns; a list of dictionaries as a table | To do |
+| 8 | [8-functions.py](lessons/8-functions.py) | Writing my own functions, such as a reusable `percentage()` | To do |
+| 9 | [9-reading-a-csv.py](lessons/9-reading-a-csv.py) | Reading a real CSV file of GP practices with the `csv` module | To do |
 
 ### Stage 3: Working with data using pandas (coming next)
 
@@ -145,10 +155,11 @@ IMD decile: 1 = most deprived, 10 = least deprived.
 
 ## Running the scripts
 
-You need Python 3 installed. The book uses the Thonny editor on a Raspberry Pi, but any Python 3 setup works. Run the scripts from this folder, so they can find the `data` folder:
+You need Python 3 installed. The book uses the Thonny editor on a Raspberry Pi, but any Python 3 setup works. Run the scripts from the top folder of the repository (not from inside `lessons/` or `answers/`), so they can find the `data` folder:
 
 ```bash
-python 4-variables.py
+python lessons/4-variables.py
+python answers/4-variables.py
 ```
 
 Each Claude lesson ends with a **Try it yourself** section with small exercises to type in.
