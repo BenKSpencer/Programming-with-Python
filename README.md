@@ -4,7 +4,7 @@ Hello! I'm new to Python, and this repository is where I'm keeping the code I wr
 
 ## Where I'm starting
 
-I started with **Chapter 5 – Programming with Python** of *The Official Raspberry Pi Beginner's Guide: How to use your new computer* by Gareth Halfacree (published by Raspberry Pi, [raspberrypi.org](https://www.raspberrypi.org)). Lessons 1–3 come from the book.
+I started with **Chapter 5 – Programming with Python** of *The Official Raspberry Pi Beginner's Guide: How to use your new computer* by Gareth Halfacree (published by Raspberry Pi, [raspberrypi.org](https://www.raspberrypi.org)). Lessons 1–3 come from the book, with **Try it yourself** exercises added by Claude AI (Anthropic) so every lesson has questions to answer.
 
 From Lesson 4, I'm following a lesson plan devised with Claude AI (Anthropic). It builds the Python basics I need for working with data, using population health examples. I can still return to the book's later exercises (such as turtle graphics) for fun.
 
@@ -39,13 +39,13 @@ For each lesson I create a branch, copy the lesson into `answers/`, work through
 
 ## Lesson plan
 
-### Stage 1: Python basics (from the book)
+### Stage 1: Python basics (from the book, with exercises by Claude AI)
 
-| # | Script | What I learned | Status |
+| # | Script | What I'll learn | Status |
 |---|--------|----------------|--------|
-| 1 | [1-helloworld.py](lessons/1-helloworld.py) | `print()`, strings, numbers, Booleans, operators, string methods and f-strings | Done |
-| 2 | [2-Indentation.py](lessons/2-Indentation.py) | `for` loops with `range()`, and how indentation defines a block of code | Done |
-| 3 | [3-Indentation-2.py](lessons/3-Indentation-2.py) | `while True` loops, which run forever (press `Ctrl+C` to stop) | Done |
+| 1 | [1-helloworld.py](lessons/1-helloworld.py) | `print()`, strings, numbers, Booleans, operators, string methods and f-strings | To do |
+| 2 | [2-Indentation.py](lessons/2-Indentation.py) | `for` loops with `range()`, and how indentation defines a block of code | To do |
+| 3 | [3-Indentation-2.py](lessons/3-Indentation-2.py) | `while True` loops, which run forever (press `Ctrl+C` to stop) | To do |
 
 ### Stage 2: The basics I need for data (devised by Claude AI, Anthropic)
 
@@ -162,4 +162,4 @@ python lessons/4-variables.py
 python answers/4-variables.py
 ```
 
-Each Claude lesson ends with a **Try it yourself** section with small exercises to type in.
+Every lesson ends with a **Try it yourself** section of small exercises. My answers go in the matching file in [answers/](answers/).

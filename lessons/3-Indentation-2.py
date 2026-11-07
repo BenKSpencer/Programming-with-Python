@@ -9,4 +9,16 @@ while True: # While True is an infinite loop, it will run forever unless we brea
 
 print("loop finished!") # This is not indented, so it runs after all the loops. However, 
                         # this line will never be reached because the loop above is infinite
-                        # and has no break statement. 
+                        # and has no break statement.
+
+# Try it yourself (added by Claude AI, Anthropic):
+# 1. Change the message inside the loop to "Checking the register..." and
+#    run it. Stop it with Ctrl+C.
+# 2. Add a second indented print() inside the loop. What pattern do you see?
+# 3. Indent print("loop finished!") so it is inside the loop. What happens
+#    now, and why?
+# 4. Change while True to while False. What happens, and why does
+#    "loop finished!" now print?
+# 5. Lesson 1 showed that comparisons give True or False. Try while 1 > 2:
+#    and then while 2 > 1:. Predict what each will do before you run it.
+#    (Lesson 5 shows how to stop a loop on purpose with break.)

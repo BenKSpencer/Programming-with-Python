@@ -60,3 +60,16 @@ print("Hello, {}!".format("World"))  # {} is a placeholder for a value. The resu
 print("Hello, {name}!".format(name="World"))  # A placeholder can be named. The result is "Hello, World!".
 print(f"Hello, {'World'}!")  # Expressions inside {} are evaluated.
 print(f"Hello, {'World'}! The length is {len('World')}.")
+
+# Try it yourself (added by Claude AI, Anthropic):
+# 1. Print the name of a GP practice, "Salmon Surgery", as a string.
+# 2. 5010 out of 6855 patients have their blood pressure controlled.
+#    Print the percentage. Hint: divide, then multiply by 100.
+# 3. Use a comparison operator to print whether 73.09 is less than the
+#    England figure of 74.01. Do you get True or False?
+# 4. Use and to print whether 73.09 is above 70 and below 80.
+# 5. Print "salmon surgery" in title case, then replace "Surgery" with
+#    "Health Centre".
+# 6. Use an f-string to print "Salmon Surgery has 7650 patients." Then print
+#    how many characters are in "Salmon Surgery" using len().
+# 7. Use * to print a line of 20 dashes, like a divider in a report.

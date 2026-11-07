@@ -28,3 +28,15 @@ for number in range(10, 0, -1):
     print("counting down:", number)  # Prints 10 down to 1.
 
 print("loop finished!")  # This is not indented, so it runs after all the loops.
+
+# Try it yourself (added by Claude AI, Anthropic):
+# 1. Print "Q1", "Q2", "Q3" and "Q4" using range() and an f-string.
+#    Hint: f"Q{number}".
+# 2. Print every year from 2020 to 2026. Check that 2026 is included.
+# 3. Print the IMD deciles 1 to 10, then count back down from 10 to 1.
+# 4. Print ages from 40 to 75 in steps of 5.
+# 5. A gainshare pays £15 per patient each quarter. For quarters 1 to 4,
+#    print the running total for one patient, e.g. "Quarter 2: £30".
+#    Hint: multiply the loop variable by 15.
+# 6. Remove the indentation from a print() inside one of your loops and
+#    run the file. What error do you get, and what does it tell you?
