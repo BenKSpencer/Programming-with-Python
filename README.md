@@ -44,7 +44,7 @@ For each lesson I create a branch, copy the lesson into `answers/`, work through
 | # | Script | What I'll learn | Status |
 |---|--------|----------------|--------|
 | 1 | [1-helloworld.py](lessons/1-helloworld.py) | `print()`, strings, numbers, Booleans, operators, string methods and f-strings | Done ([my answers](answers/1-helloworld.py)) |
-| 2 | [2-Indentation.py](lessons/2-Indentation.py) | `for` loops with `range()`, and how indentation defines a block of code | To do |
+| 2 | [2-Indentation.py](lessons/2-Indentation.py) | `for` loops with `range()`, and how indentation defines a block of code | Done ([my answers](answers/2-Indentation.py)) 
 | 3 | [3-Indentation-2.py](lessons/3-Indentation-2.py) | `while True` loops, which run forever (press `Ctrl+C` to stop) | To do |
 
 ### Stage 2: The basics I need for data (devised by Claude AI, Anthropic)
