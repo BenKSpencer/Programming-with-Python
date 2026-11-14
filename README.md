@@ -52,7 +52,7 @@ For each lesson I create a branch, copy the lesson into `answers/`, work through
 | # | Script | What I'll learn | Status |
 |---|--------|-----------------|--------|
 | 4 | [4-variables.py](lessons/4-variables.py) | Variables, calculating a percentage, `round()`, converting text to numbers | Done ([my answers](answers/4-variables.py)) |
-| 5 | [5-if-statements.py](lessons/5-if-statements.py) | `if`, `elif` and `else`: comparing a PCN with England; `break` to fix Lesson 3's endless loop | To do |
+| 5 | [5-if-statements.py](lessons/5-if-statements.py) | `if`, `elif` and `else`: comparing a PCN with England; `break` to fix Lesson 3's endless loop | Done ([my answer](answers/5-if-statements.py)) |
 | 6 | [6-lists.py](lessons/6-lists.py) | Lists: storing many values, `sum()`, `min()`, `max()`, averages, sorting and filtering | To do |
 | 7 | [7-dictionaries.py](lessons/7-dictionaries.py) | Dictionaries: a row of data with labelled columns; a list of dictionaries as a table | To do |
 | 8 | [8-functions.py](lessons/8-functions.py) | Writing my own functions, such as a reusable `percentage()` | To do |
