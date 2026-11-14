@@ -11,6 +11,11 @@ print("loop starting!")  # This is not indented, so it runs before the loops.
 for number in range(10):  # The colon (:) starts the indented block of code that belongs to the loop.
     print("loop number:", number) # The identaton shows this line belongs to the loop.
 
+for number in range(10):
+    print("I don't have to use the loop variable if I don't want to.") # The indentation shows this line belongs to the loop,
+                                                                       # but the loop variable is not used in the print() 
+                                                                       # so, it will just print the "string" 10 times.
+
 # range() variations
 # range(stop) starts at 0 (if not specified) and counts up by 1 (if not specified), stopping before stop value..
 for number in range(5):

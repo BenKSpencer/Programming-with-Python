@@ -53,9 +53,15 @@ print(float("73.09"))             # Prints 73.09 as a number
 
 # Try it yourself:
 # 1. Make variables for the England hypertension figure: 74.01
-# 2. Work out the difference between percentage and the England figure.
-# 3. Print a sentence like "This PCN is 0.7 points below England."
+england_percentage = 74.01 # defines a variable named england_percentage and assigns it the value of 74.01
 
-england_percentage = 74.01
-difference = percentage - england_percentage
-print(f"{practice_name} is {difference:.1f}% points below England.") 
+# 2. Work out the difference between percentage and the England figure.
+difference = percentage - england_percentage # calculates the difference between percentage and england_percentage and
+                                             # assigns it to the variable named difference
+
+# 3. Print a sentence like "This PCN is 0.7 points below England."
+print(f"This PCN is {abs(difference):.1f} points below England.") # Uses an f-string to print the value of difference with
+                                                             # 1 decimal place in a sentence. abs() is a built-in function
+                                                             # that returns the absolute value of a number, so it will always
+                                                             # be positive, regardless of whether the PCN is above or below
+                                                             # England.
