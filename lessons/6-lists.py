@@ -21,6 +21,11 @@ print(practices[-1])  # A negative index counts from the end: Perch Health Centr
 for practice in practices:
     print("Practice:", practice)
 
+# enumerate() adds a counter to a for loop. It gives two values each time:
+# the count, then the item. start=1 makes the count begin at 1 instead of 0.
+for number, practice in enumerate(practices, start=1):
+    print(f"{number}. {practice}")  # Prints 1. Salmon Surgery, 2. Trout Practice, ...
+
 # Built-in functions for lists of numbers.
 print(sum(list_sizes))  # Adds them all up: 21460
 print(min(list_sizes))  # The smallest: 3420
@@ -59,5 +64,8 @@ for practice, size in zip(practices, list_sizes):
 
 # Try it yourself:
 # 1. Add another practice and list size, then check the total again.
-# 2. Make a list called imd_deciles with the values 9, 7, 4, 6, 5.
+# 2. Make a list called imd_deciles with the values 9, 7, 4, 6, 5, 3
+#    (one for each practice, in the same order, including the one you added).
 #    Print how many practices are in deciles 1 to 5 (more deprived half).
+# 3. Use zip() to print each practice with its decile, for example
+#    Salmon Surgery: decile 9. Check that all six practices appear.
